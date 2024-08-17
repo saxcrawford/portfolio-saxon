@@ -10,7 +10,6 @@ Welcome to my personal portfolio! This simply showcases who I am, and a couple o
 - [Features](#features)
 - [Projects Section](#projects-section)
 - [Contact](#contact)
-- [License](#license)
 
 ## About
 
