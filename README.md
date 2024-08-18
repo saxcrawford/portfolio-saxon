@@ -1,4 +1,4 @@
-# Portfolio - Saxon Crawford
+# Portfolio
 
 Welcome to my personal portfolio! This simply showcases who I am, and a couple of my projects I've made as a developer. This portfolio was built with React and will serve as a place to demonstrate my work and my latest projects.
 
@@ -45,7 +45,6 @@ To run this portfolio locally, follow these steps:
 
 ## Features
 
-- **Responsive Design**: The portfolio is fully responsive and looks great on any device.
 - **Project Showcase**: Each project is displayed as a card with detailed descriptions and links to the live demo or repository.
 - **Smooth Animations**: Subtle animations enhance the user experience without overwhelming the content.
 - **Contact Section**: Provides easy ways to get in touch via email or social media.
