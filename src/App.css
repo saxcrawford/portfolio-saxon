@@ -404,6 +404,10 @@
   cursor: pointer;
 }
 
+footer p {
+  font-size: 0.5rem;
+}
+
 /* Contact media query for small screens */
 @media (max-width: 1024px) {
   .contact--container h1 {

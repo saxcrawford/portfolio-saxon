@@ -1,5 +1,5 @@
 import React from "react"
-import linkedInIcon from "../icons/linkedin.svg"
+import linkedInIcon from "../icons/In-Blue-128.png"
 import githubIcon from "../icons/github.svg"
 
 function openMailApplication() {
@@ -14,14 +14,18 @@ function Contact() {
             <div className="contact--flex">
                 <button onClick={openMailApplication} className="contact--button">Contact Me</button>
                 <div className="contact--icons">
-                    <a href="https://www.linkedin.com/in/saxoncrawford/" target="_blank" aria-label="LinkedIn Profile">
+                    <a href="https://www.linkedin.com/in/saxoncrawford/" target="_blank" aria-label="LinkedIn Profile" rel="noreferrer">
                         <img className="contact--icon" src={linkedInIcon} alt="GitHub Icon"/>
                     </a>
-                    <a href="https://github.com/saxcrawford" target="_blank" aria-label="GitHub Profile">
+                    <a href="https://github.com/saxcrawford" target="_blank" aria-label="GitHub Profile" rel="noreferrer">
                         <img className="contact--icon" src={githubIcon} alt="GitHub Icon"/>
                     </a>
                 </div>
             </div>
+            <footer>
+                <p>LinkedIn logo used according to <a href="https://brand.linkedin.com/policies" target="_blank" rel="noreferrer">LinkedIn's Brand Guidelines</a></p>
+                <p>GitHub logo used according to <a href="https://github.com/logos" target="_blank" rel="noreferrer">GitHub's Branding Guidelines</a></p>
+            </footer>
         </section>
     )
 }
