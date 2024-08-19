@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-saxon/static/css/main.660d3ef0.css",
-    "main.js": "/portfolio-saxon/static/js/main.8e99e405.js",
+    "main.js": "/portfolio-saxon/static/js/main.2a75c837.js",
     "static/js/453.e39e6467.chunk.js": "/portfolio-saxon/static/js/453.e39e6467.chunk.js",
     "static/media/Saxon.png": "/portfolio-saxon/static/media/Saxon.59f8aeddc124c2adb170.png",
     "static/media/coding-language.png": "/portfolio-saxon/static/media/coding-language.05cd177fd435e4a43f3f.png",
@@ -11,11 +11,11 @@
     "index.html": "/portfolio-saxon/index.html",
     "static/media/linkedin.svg": "/portfolio-saxon/static/media/linkedin.13f3aab8afad96f798a72797896f5ba1.svg",
     "main.660d3ef0.css.map": "/portfolio-saxon/static/css/main.660d3ef0.css.map",
-    "main.8e99e405.js.map": "/portfolio-saxon/static/js/main.8e99e405.js.map",
+    "main.2a75c837.js.map": "/portfolio-saxon/static/js/main.2a75c837.js.map",
     "453.e39e6467.chunk.js.map": "/portfolio-saxon/static/js/453.e39e6467.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.660d3ef0.css",
-    "static/js/main.8e99e405.js"
+    "static/js/main.2a75c837.js"
   ]
 }
