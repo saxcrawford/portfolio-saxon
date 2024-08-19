@@ -7,7 +7,7 @@ export const projectData = [
                 HTML, CSS, and JavaScript where a user enters a city and it pulls information 
                 from the API to display weather conditions, humidity, temperature, etc.
             `,
-        link: "https://github.com/saxcrawford/weather",
+        link: "https://github.com/saxcrawford/just-the-weather/",
     },
     {
         id: 2,
