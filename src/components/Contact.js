@@ -1,6 +1,6 @@
 import React from "react"
 import linkedInIcon from "../icons/In-Blue-128.png"
-import githubIcon from "../icons/github.svg"
+import githubIcon from "../icons/github-mark.png"
 
 function openMailApplication() {
     window.location.href = 'mailto:saxon.crawford@icloud.com';
