@@ -8,7 +8,6 @@ Welcome to my personal portfolio! This simply showcases who I am, and a couple o
 - [Technologies Used](#technologies-used)
 - [Setup and Installation](#setup-and-installation)
 - [Features](#features)
-- [Projects Section](#projects-section)
 - [Contact](#contact)
 
 ## About
