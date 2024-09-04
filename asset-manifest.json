@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio-saxon/static/css/main.79627ed7.css",
+    "main.css": "/portfolio-saxon/static/css/main.775ef736.css",
     "main.js": "/portfolio-saxon/static/js/main.04cf05a7.js",
     "static/js/453.e39e6467.chunk.js": "/portfolio-saxon/static/js/453.e39e6467.chunk.js",
     "static/media/coding-language.png": "/portfolio-saxon/static/media/coding-language.05cd177fd435e4a43f3f.png",
     "static/media/coding.png": "/portfolio-saxon/static/media/coding.6b43ee7c655f205d7c60.png",
     "static/media/Cap.svg": "/portfolio-saxon/static/media/Cap.b07e4336c6f1598fab38d025b862b94a.svg",
     "index.html": "/portfolio-saxon/index.html",
-    "main.79627ed7.css.map": "/portfolio-saxon/static/css/main.79627ed7.css.map",
+    "main.775ef736.css.map": "/portfolio-saxon/static/css/main.775ef736.css.map",
     "main.04cf05a7.js.map": "/portfolio-saxon/static/js/main.04cf05a7.js.map",
     "453.e39e6467.chunk.js.map": "/portfolio-saxon/static/js/453.e39e6467.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.79627ed7.css",
+    "static/css/main.775ef736.css",
     "static/js/main.04cf05a7.js"
   ]
 }
