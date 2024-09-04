@@ -1,6 +1,11 @@
 export const projectData = [
     {
         id: 1,
+        image: require("../images/weather.jpg"),
+        attribution: {
+            author: "Daoudi Aissa",
+            url: "https://unsplash.com/@dannyeve?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+        },
         title: "Weather Website",
         description: `
                 This project demonstrates a weather website made using OpenWeather API. It uses 
@@ -11,6 +16,11 @@ export const projectData = [
     },
     {
         id: 2,
+        image: require("../images/expense.jpg"),
+        attribution: {
+            author: "Kenny Eliason",
+            url: "https://unsplash.com/@neonbrand?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+        },
         title: "Expense Tracker",
         description: `
                 This project showcases an expense tracking website built with Flask and uses MySQL 

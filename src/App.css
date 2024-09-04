@@ -169,14 +169,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 0.3rem black solid;
   border-radius: 4rem;
   max-width: 960px;
   height: 550px;
   gap: 40px;
   padding: 0 40px;
   background-color: white;
+  transition-property: box-shadow, transform;
+  transition-duration: var(--def-transition-duration);
+  transition-timing-function: ease-in-out;
+}
+
+.about--content:hover {
   box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.25);
+  transform: scale(1.02);
 }
 
 .about--content-left {
@@ -277,33 +283,61 @@
 
 .card {
   text-align: left;
-  background: #FFF8F0;
-  background: linear-gradient(to bottom, #FFF8F0 0%, #FFFDF0 50%, #FCFFF0 100%);
-  border: 0.3rem black solid;
+  color: white;
   border-radius: 4rem;
-  box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.25);
   max-width: 400px;
   position: relative;
   height: 350px;
   padding: 20px;
-  transition: transform 0.2s;
+  transition-property: transform, box-shadow;
+  transition-duration: var(--def-transition-duration);
+  transition-timing-function: ease-in-out;
+  overflow: hidden;
 }
 
 .card:hover {
   transform: scale(1.05);
+  box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.25);
 }
 
 .card-content {
   padding: 20px;
 }
 
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.card-content,
+.projects--button,
+.projects--image-attribution {
+  position: relative;
+  z-index: 2;
+  color: white;
+}
+
+.projects--image-attribution {
+  text-decoration: none;
+  font-size: 0.6rem;
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+}
+
+.projects--image-attribution:hover {
+  text-decoration: underline;
+}
+
 .card h2 {
   font-size: 1.5rem;
   margin: 0 0 10px 0;
-}
-
-.card p {
-  color: #777;
 }
 
 .projects--section h1 {
@@ -322,13 +356,16 @@
   width: 120px;
   height: 35px;
   margin-top: 30px;
-  transition: 0.2s;
-  box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.15);
+  transition-property: background-color, box-shadow, transform;
+  transition-duration: var(--def-transition-duration);
+  transition-timing-function: ease-in-out;
 }
 
 .projects--button:hover {
   background-color: #5c6cff;
   cursor: pointer;
+  box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.15);
+  transform: scale(1.01);
 }
 
 /* Projects media query for small screens */
