@@ -15,10 +15,6 @@
   text-align: center;
 }
 
-.App-logo {
-  pointer-events: none;
-}
-
 /* Navbar Section */
 
 .navbar--container {
@@ -36,11 +32,11 @@
   font-size: 1.7rem;
   font-weight: 600;
   margin-right: auto;
-  margin-left: 25px;
+  margin-left: 1.56rem;
 }
 
 .navbar--container a {
-  margin: 25px;
+  margin: 1.56rem;
   color: black;
   text-decoration: none;
   transition: 0.3s;
@@ -58,7 +54,7 @@
   }
 
   .navbar--container a {
-    margin: 20px 10px;
+    margin: 1.25rem 0.63rem;
     font-size: 0.7rem;
   }
 }
@@ -70,12 +66,12 @@
   align-items: center;
   justify-content: center;
   gap: 70px;
-  padding-top: 75px;
+  padding-top: 4.69rem;
   height: 75vh;
 }
 
 .hero--image {
-  height: 300px;
+  height: 18.75rem;
 }
 
 .hero--heading {
@@ -84,7 +80,7 @@
 }
 
 .hero--text {
-  max-width: 500px;
+  max-width: 31.25rem;
   text-align: left;
 }
 
@@ -98,9 +94,9 @@
   font-size: 1.1rem;
   border-radius: 100px;
   border: none;
-  width: 200px;
-  height: 50px;
-  margin-top: 30px;
+  width: 12.5rem;
+  height: 3.13rem;
+  margin-top: 1.88rem;
   transition-property: box-shadow, background-color, transform;
   transition-duration: var(--def-transition-duration);
   transition-timing-function: ease-in-out;
@@ -116,13 +112,13 @@
 /* Hero media query for smaller screens */
 @media (max-width: 1024px) {
   .hero--container {
-    margin-right: 14px;
+    margin-right: 0.88rem;
     gap: 30px;
   }
 
   .hero--image {
-    height: 150px;
-    margin-left: 30px;
+    height: 9.38rem;
+    margin-left: 1.88rem;
   }
 
   .hero--heading {
@@ -135,8 +131,8 @@
 
   .hero--button {
     font-size: 0.8rem;
-    width: 130px;
-    height: 35px;
+    width: 8.13rem;
+    height: 2.19rem;
   }
 }
 
@@ -144,7 +140,7 @@
 
 .about--container {
   background-color: #f0f2ff;
-  padding: 75px 0;
+  padding: 4.69rem 0;
 }
 
 .about--container h1 {
@@ -170,10 +166,10 @@
   align-items: center;
   justify-content: center;
   border-radius: 4rem;
-  max-width: 960px;
-  height: 550px;
+  max-width: 60rem;
+  height: 34.38rem;
   gap: 40px;
-  padding: 0 40px;
+  padding: 0 2.5rem;
   background-color: white;
   transition-property: box-shadow, transform;
   transition-duration: var(--def-transition-duration);
@@ -209,7 +205,7 @@
 .about--icons {
   display: flex;
   gap: 20px;
-  padding-top: 20px;
+  padding-top: 1.25rem;
   align-items: center;
   justify-content: center;
 }
@@ -230,13 +226,13 @@
 
   .about--content {
     flex-direction: column;
-    height: 500px;
-    max-width: 280px;
+    height: 31.25rem;
+    max-width: 17.5rem;
     gap: 10px;
   }
 
   .about--content-left {
-    padding-top: 50px;
+    padding-top: 3.13rem;
     width: 100%;
     font-size: 0.8rem;
   }
@@ -264,7 +260,7 @@
 
 /* Projects Section */
 .projects--section {
-  padding: 75px 0;
+  padding: 4.69rem 0;
 }
 
 .projects--container {
@@ -285,10 +281,10 @@
   text-align: left;
   color: white;
   border-radius: 4rem;
-  max-width: 400px;
+  max-width: 25rem;
   position: relative;
-  height: 350px;
-  padding: 20px;
+  height: 21.88rem;
+  padding: 1.25rem;
   transition-property: transform, box-shadow;
   transition-duration: var(--def-transition-duration);
   transition-timing-function: ease-in-out;
@@ -301,7 +297,7 @@
 }
 
 .card-content {
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 .card::before {
@@ -337,7 +333,7 @@
 
 .card h2 {
   font-size: 1.5rem;
-  margin: 0 0 10px 0;
+  margin: 0 0 0.63rem 0;
 }
 
 .projects--section h1 {
@@ -353,9 +349,9 @@
   color: white;
   border-radius: 100px;
   border: none;
-  width: 120px;
-  height: 35px;
-  margin-top: 30px;
+  width: 7.5rem;
+  height: 2.19rem;
+  margin-top: 1.88rem;
   transition-property: background-color, box-shadow, transform;
   transition-duration: var(--def-transition-duration);
   transition-timing-function: ease-in-out;
@@ -371,8 +367,8 @@
 /* Projects media query for small screens */
 @media (max-width: 1024px) {
   .card {
-    max-width: 280px;
-    height: 250px;
+    max-width: 17.5rem;
+    height: 15.63rem;
   }
 
   .projects--cards {
@@ -394,8 +390,8 @@
   }
 
   .projects--button {
-    width: 100px;
-    height: 28px;
+    width: 6.25rem;
+    height: 1.75rem;
     font-size: 0.7rem;
   }
 }
@@ -404,7 +400,7 @@
 
 .contact--container {
   background-color: #f0f2ff;
-  padding: 75px 0;
+  padding: 4.69rem 0;
 }
 
 .contact--container h1 {
@@ -427,7 +423,7 @@
 }
 
 .contact--icon {
-  height: 30px;
+  height: 1.88rem;
 }
 
 .contact--button {
@@ -436,9 +432,9 @@
   font-size: 1.1rem;
   border-radius: 100px;
   border: none;
-  width: 200px;
-  height: 50px;
-  margin-top: 30px;
+  width: 12.5rem;
+  height: 3.13rem;
+  margin-top: 1.88rem;
   transition-property: box-shadow, background-color, transform;
   transition-duration: var(--def-transition-duration);
   transition-timing-function: ease-in-out;
@@ -462,12 +458,12 @@ footer p {
   }
 
   .contact--icon {
-    height: 30px;
+    height: 1.88rem;
   }
 
   .contact--button {
-    width: 130px;
-    height: 35px;
+    width: 8.13rem;
+    height: 2.19rem;
     font-size: 0.8rem;
   }
 }
