@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-saxon/static/css/main.b473ae4f.css",
-    "main.js": "/portfolio-saxon/static/js/main.812a105d.js",
+    "main.js": "/portfolio-saxon/static/js/main.55a675d0.js",
     "static/js/453.e39e6467.chunk.js": "/portfolio-saxon/static/js/453.e39e6467.chunk.js",
     "static/media/expense.jpg": "/portfolio-saxon/static/media/expense.388ca48a80641b60d136.jpg",
     "static/media/weather.jpg": "/portfolio-saxon/static/media/weather.b80b98e8988466516566.jpg",
@@ -10,11 +10,11 @@
     "static/media/Cap.svg": "/portfolio-saxon/static/media/Cap.b07e4336c6f1598fab38d025b862b94a.svg",
     "index.html": "/portfolio-saxon/index.html",
     "main.b473ae4f.css.map": "/portfolio-saxon/static/css/main.b473ae4f.css.map",
-    "main.812a105d.js.map": "/portfolio-saxon/static/js/main.812a105d.js.map",
+    "main.55a675d0.js.map": "/portfolio-saxon/static/js/main.55a675d0.js.map",
     "453.e39e6467.chunk.js.map": "/portfolio-saxon/static/js/453.e39e6467.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b473ae4f.css",
-    "static/js/main.812a105d.js"
+    "static/js/main.55a675d0.js"
   ]
 }
