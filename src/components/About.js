@@ -11,12 +11,12 @@ function About() {
             <div className="about--flex">
                 <div className="about--content">
                     <p className="about--content-left">
-                        My name is Saxon Crawford and I am an aspiring IT specialist with a strong
+                        My name is Saxon Crawford and I am an aspiring IT professional with a strong
                         passion for technology and computers. I have foundational knowledge in basic
                         software development and web development which have given me a solid understanding
                         of how technologies work and thrive in the digital world. I am eager to expand my skills
                         in areas such as IT, software development, web development, etc. I'm excited to 
-                        take on new opportunities that will allow me to develop my expertise and contribute to innovative IT solutions.
+                        take on new opportunities that allow me to continue learning, grow my technical skills, and contribute to innovative solutions.
                     </p>
                     <div className="about--content-right">
                         <img className="right-content capIcon" src={capIcon} alt="Graduation Cap"/>
