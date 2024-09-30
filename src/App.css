@@ -5,6 +5,7 @@
   font-style: normal;
   letter-spacing: 0.1rem;
   scroll-behavior: smooth;
+  color: white;
 }
 
 :root {
@@ -22,29 +23,37 @@
   display: flex;
   align-items: center;
   width: 100%;
-  background: #FFF3F0;
-  background: linear-gradient(to right, #FFF3F0 0%, #FFF8F0 50%, #FFFDF0 100%);
+  background-color: #1B1B1B;
   box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.25);
   z-index: 1000;
 }
 
 .navbar--heading {
+  color: #FF5722;
   font-size: 1.7rem;
-  font-weight: 600;
+  font-weight: 500;
   margin-right: auto;
   margin-left: 1.56rem;
+  transition-property: color;
+  transition-duration: var(--def-transition-duration);
+  transition-timing-function: ease-in-out;
+}
+
+.navbar--heading:hover {
+  color: #FFA121;
+  cursor:alias;
 }
 
 .navbar--container a {
   margin: 1.56rem;
-  color: black;
+  color: white;
   text-decoration: none;
   transition: 0.3s;
   font-size: 1rem;
 }
 
 .navbar--container a:hover {
-  color: rgba(0, 0, 0, 0.5);
+  color: #FF5722;
 }
 
 /* Navbar media query for smaller screens */
@@ -63,9 +72,10 @@
 
 .hero--container {
   display: flex;
+  background-color: #1B1B1B;
   align-items: center;
   justify-content: center;
-  gap: 70px;
+  gap: 100px;
   padding-top: 4.69rem;
   height: 75vh;
 }
@@ -89,7 +99,7 @@
 }
 
 .hero--button {
-  background-color: #273BE2;
+  background-color: #FF5722;
   color: white;
   font-size: 1.1rem;
   border-radius: 100px;
@@ -103,9 +113,9 @@
 }
 
 .hero--button:hover {
-  background-color: #5c6cff;
+  background-color: #FFA121;
   cursor: pointer;
-  box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.15);
+  box-shadow: 0px 0px 10px 3px rgba(0,0,0,1);
   transform: scale(1.05);
 }
 
@@ -139,7 +149,7 @@
 /* About Section */
 
 .about--container {
-  background-color: #f0f2ff;
+  background-color: #121212;
   padding: 4.69rem 0;
 }
 
@@ -154,11 +164,10 @@
 }
 
 .about--flex {
-  height: 85vh;
+  height: 70vh;
   display: flex;
   align-items: center;
-  justify-content: center;
-  background-color: #f0f2ff;
+  justify-content: center;;
 }
 
 .about--content {
@@ -170,15 +179,17 @@
   height: 34.38rem;
   gap: 40px;
   padding: 0 2.5rem;
-  background-color: white;
-  transition-property: box-shadow, transform;
+  background-color: #2E2E2E;
+  transition-property: box-shadow, transform, border;
   transition-duration: var(--def-transition-duration);
   transition-timing-function: ease-in-out;
+  color: black;
 }
 
 .about--content:hover {
-  box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.25);
+  box-shadow: 0px 0px 20px 3px rgba(0,0,0,1);
   transform: scale(1.02);
+  border: 2px solid #FF5722;
 }
 
 .about--content-left {
@@ -199,7 +210,7 @@
 .about--content-right h4{
   font-size: 1.2rem;
   font-weight: 500;
-  color: #273BE2;
+  color: #FF5722;
 }
 
 .about--icons {
@@ -212,6 +223,10 @@
 
 .about--dev-icon {
   width: 5rem;
+}
+
+.capIcon {
+  width: 8rem;
 }
 
 /* About media query for smaller screens */
@@ -261,6 +276,7 @@
 /* Projects Section */
 .projects--section {
   padding: 4.69rem 0;
+  background-color: #1B1B1B;
 }
 
 .projects--container {
@@ -269,7 +285,7 @@
   gap: 20px;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 70vh;
 }
 
 .projects--cards {
@@ -279,21 +295,22 @@
 
 .card {
   text-align: left;
-  color: white;
   border-radius: 4rem;
   max-width: 25rem;
   position: relative;
   height: 21.88rem;
   padding: 1.25rem;
-  transition-property: transform, box-shadow;
+  transition-property: transform, box-shadow, border;
   transition-duration: var(--def-transition-duration);
   transition-timing-function: ease-in-out;
+  color: black;
   overflow: hidden;
 }
 
 .card:hover {
   transform: scale(1.05);
-  box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.25);
+  box-shadow: 0px 0px 20px 3px rgba(0,0,0,1);
+  border: 2px solid #FF5722;
 }
 
 .card-content {
@@ -345,7 +362,7 @@
   position: absolute;
   bottom: 30px;
   right: 30px;
-  background-color: #273BE2;
+  background-color: #FF5722;
   color: white;
   border-radius: 100px;
   border: none;
@@ -358,7 +375,7 @@
 }
 
 .projects--button:hover {
-  background-color: #5c6cff;
+  background-color: #FFA121;
   cursor: pointer;
   box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.15);
   transform: scale(1.01);
@@ -399,7 +416,7 @@
 /* Contact Section */
 
 .contact--container {
-  background-color: #f0f2ff;
+  background-color: #121212;
   padding: 4.69rem 0;
 }
 
@@ -419,15 +436,21 @@
 
 .contact--icons {
   display: flex;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
   gap: 20px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
 }
 
 .contact--icon {
   height: 1.88rem;
+  padding-top: 5px;
 }
 
 .contact--button {
-  background-color: #273BE2;
+  background-color: #FF5722;
   color: white;
   font-size: 1.1rem;
   border-radius: 100px;
@@ -441,7 +464,7 @@
 }
 
 .contact--button:hover {
-  background-color: #5c6cff;
+  background-color: #FFA121;
   cursor: pointer;
   box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.15);
   transform: scale(1.05);
