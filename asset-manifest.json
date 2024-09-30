@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio-saxon/static/css/main.b473ae4f.css",
-    "main.js": "/portfolio-saxon/static/js/main.55a675d0.js",
+    "main.css": "/portfolio-saxon/static/css/main.3f1f6474.css",
+    "main.js": "/portfolio-saxon/static/js/main.c3589c94.js",
     "static/js/453.e39e6467.chunk.js": "/portfolio-saxon/static/js/453.e39e6467.chunk.js",
     "static/media/expense.jpg": "/portfolio-saxon/static/media/expense.388ca48a80641b60d136.jpg",
     "static/media/weather.jpg": "/portfolio-saxon/static/media/weather.b80b98e8988466516566.jpg",
+    "static/media/waving-hand.png": "/portfolio-saxon/static/media/waving-hand.95e16ea6f650db548f97.png",
     "static/media/coding-language.png": "/portfolio-saxon/static/media/coding-language.05cd177fd435e4a43f3f.png",
-    "static/media/coding.png": "/portfolio-saxon/static/media/coding.6b43ee7c655f205d7c60.png",
-    "static/media/Cap.svg": "/portfolio-saxon/static/media/Cap.b07e4336c6f1598fab38d025b862b94a.svg",
+    "static/media/coding.png": "/portfolio-saxon/static/media/coding.2bf37c90b6d57fbdd5a6.png",
+    "static/media/graduation-cap.png": "/portfolio-saxon/static/media/graduation-cap.62e5bc86da4751ef1fcd.png",
     "index.html": "/portfolio-saxon/index.html",
-    "main.b473ae4f.css.map": "/portfolio-saxon/static/css/main.b473ae4f.css.map",
-    "main.55a675d0.js.map": "/portfolio-saxon/static/js/main.55a675d0.js.map",
+    "main.3f1f6474.css.map": "/portfolio-saxon/static/css/main.3f1f6474.css.map",
+    "main.c3589c94.js.map": "/portfolio-saxon/static/js/main.c3589c94.js.map",
     "453.e39e6467.chunk.js.map": "/portfolio-saxon/static/js/453.e39e6467.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b473ae4f.css",
-    "static/js/main.55a675d0.js"
+    "static/css/main.3f1f6474.css",
+    "static/js/main.c3589c94.js"
   ]
 }
